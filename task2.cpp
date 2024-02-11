@@ -20,7 +20,7 @@ public:
 
 	int calculateVolume();
 	int calculateWaterArea();
-	bool checkTypes(Reservoir& reservoir);
+	bool checkTypes(Reservoir& reservoir) const;
 	bool compareArea(Reservoir& reservoir);
 	void copyObject(Reservoir& reservoir);
 
@@ -66,7 +66,7 @@ int Reservoir::calculateWaterArea() {
 	return this->waterArea;
 }
 
-bool Reservoir::checkTypes(Reservoir& reservoir) {
+bool Reservoir::checkTypes(Reservoir& reservoir) const{
 	if (this->type == reservoir.type) {
 		return true;
 	}
