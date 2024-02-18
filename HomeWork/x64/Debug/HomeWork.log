@@ -1,0 +1,3 @@
+﻿  prog.cpp
+D:\BD_321_C--_Homework\HomeWork\Distance.h(19,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  HomeWork.vcxproj -> D:\BD_321_C--_Homework\HomeWork\x64\Debug\HomeWork.exe
